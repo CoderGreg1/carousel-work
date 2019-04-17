@@ -1,0 +1,210 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.carousel-container {
+    width: 49%;
+    margin: auto;
+    border: 5px solid rgb(58, 57, 57);
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+h1 {
+  font-family: 'Libre Baskerville', serif !important;
+}
+.firsth1 {
+
+    text-align: center;
+    color: rgb(194, 180, 180);
+    font-size: 40px;
+}
+.firsth2 {
+  text-align: center;
+  color: rgb(194, 180, 180);
+  font-size: 40px;
+
+}
+span {
+    color: blue;
+    text-decoration: underline;
+}
+    body {
+    background-image: url("img/space.jpeg");
+    background-size: cover;
+}
+
+.body-text {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgba(108, 108, 109, 0.8);
+    width: 50%;
+    opacity: 1;
+    text-align: center;
+    bottom: 15px;
+    position: relative;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+  }
+  .topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+h2 {
+    text-align: left;
+    color: rgb(194, 186, 186);
+    font-weight: bold;
+    font-size: 40px;
+    }
+.column {
+    float: left;
+    width: 20%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    font-family: 'Acme', sans-serif;
+  }
+  
+.containerTab {
+    padding: 20px;
+    color: white;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .closebtn {
+    float: right;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .bosh {
+      color: black;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .neverme {
+      color: bisque;
+    }
+    .darn {
+      color: wheat;
+    }
+    .form1 {
+      text-align: center;
+    }
+    .yoyo {
+      background-color: black;
+      color: white;
+    }
+    .waggle {
+      color: red;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    #heading {
+      font-size: 30px;
+      text-decoration: underline;
+      color: lightblue;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Raleway');
+    @import url('https://fonts.googleapis.com/css?family=Lobster+Two|Raleway');
+    form {
+      margin-top: 5px;
+    }
+    input {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      color: black;
+    }
+    .material-icons {
+      color: rgb(255, 94, 0);
+      position: relative;
+    }
+    button {
+      font-family: 'Raleway', sans-serif;
+      margin-left: 55px;
+      margin-top: 20px;
+  }
+  .thankyou {
+    font-size: 30px;
+    color: rgb(150, 36, 36);
+  }
+  .contain-h1 {
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 70%;
+    background-image: url('img/8grey.jpeg');
+    height: 550px;
+  }
+  p {
+    font-family: 'Acme', sans-serif !important;
+    color: white;
+  }
+  label, a {
+    font-family: 'Acme', sans-serif;
+  }
+  #pow {
+    left: 100px;
+    top: 40px;
+    position: relative;
+  }
+.notme {
+  color: wheat;
+  font-size: 40px;
+}
+#cummon {
+  font-size: 50px;
+}

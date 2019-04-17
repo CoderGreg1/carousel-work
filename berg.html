@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" intergrity="sha384-1KuwvrZot6UHsBSfcM" 
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <title>BMW Model 850i</title>
+</head>
+<body>
+        <div class="topnav">
+                <a class="active" href="berg.html">Home</a>
+                <a href="berg4.html">Place your order</a>
+              </div>
+    <h1 class="firsth1">New <span><i>BMW</i></span> 8 Series</h1>
+    <div class="carousel-container">
+            <i class="fas fa-arrow-left" id="prevBtn"></i>
+            <i class="fas fa-arrow-right" id="nextBtn"></i>
+        <div class="carousel-slide">
+            <img src="./img/5.jpg" id="lastClone" alt="">
+            <img src="./img/1.jpg" alt="">
+            <img src="./img/2.jpg" alt="">
+            <img src="./img/3.jpg" alt="">
+            <img src="./img/4.jpeg" alt="">
+            <img src="./img/5.jpg" alt="">
+            <img src="./img/1.jpg" id="firstClone" alt="">
+        </div>
+    </div>
+    <div class="normal"><h2>Info:</h2></div>
+    <p class="body-text">The 8 Series was introduced in 1990 under the E31 model code and was only available as a two-door coupé.
+        It is powered by a range of naturally aspirated V8 and V12 petrol engines.
+        The E31 started production just as E24 6 Series production ended, however it is not considered a direct successor. 
+        It was later discontinued in 1999 due to poor sales 
+        The model range was later reintroduced in 2018 with the second generation, G15 8 Series.
+        It is expected to launch in coupé (G15), convertible (G14), and four-door Gran Coupé (G16) body styles,
+        as the successor to the F06/F12/F13 6 Series lineup.The G15 8 Series introduces an inline-six diesel engine, and a high-performance M8 model is also expected to be launched in the future.</p>
+       <br/>
+        <div class="row">
+                <div class="column" onclick="openTab('b1');" style="background:grey;">Old BMW 8 Series</div>
+                <div class="column" onclick="openTab('b2');" style="background:silver;">8 Series drop</div>
+                <div class="column" onclick="openTab('b3');" style="background:rgb(131, 123, 80);">CEO</div>
+              </div>
+              
+              <!-- The expanding grid (hidden by default) -->
+              <div id="b1" class="containerTab" style="display:none;background:grey">
+                <!-- If you want the ability to close the container, add a close button -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <img src="img/E3009409-0CB8-4962-8CBA-8A8666FF3113_0.jpg" height="300px" width="500px">
+                <p class="bosh">This is the old style 8 Series. BMW then continued this car in 2018.</p>
+              </div>
+              
+              <div id="b2" class="containerTab" style="display:none;background:silver">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <img src="img/bmw-8-series-cabriolet.jpg" height="300" width="500px">
+                <p class="bosh">This is the 8 Series in a convertable model. This is known as a cabriolet.</p>
+              </div>
+              
+              <div id="b3" class="containerTab" style="display:none;background:rgb(131, 123, 80);">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <img src="img/CEO.jpg" height="300px" width="250px">
+                <p class="bosh">Harald Kruger is the current CEO of BMW.</p> 
+              </div>
+          
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script><script src="main.js"></script>
+</body>
+</html>
